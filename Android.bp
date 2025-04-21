@@ -5,6 +5,17 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "CACertService",
+	owner: "xiaomi",
+	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.fm@1.0",
 	owner: "xiaomi",
