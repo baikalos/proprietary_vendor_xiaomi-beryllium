@@ -126,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/beryllium/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
     vendor/xiaomi/beryllium/proprietary/vendor/lib/camera/systemdefault.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/systemdefault.bin \
     vendor/xiaomi/beryllium/proprietary/vendor/lib/camera/titan17x_usecases.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/titan17x_usecases.bin \
+    vendor/xiaomi/beryllium/proprietary/vendor/lib/libaudioroute-v34.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute-v34.so \
     vendor/xiaomi/beryllium/proprietary/vendor/lib/mibokeh_845_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_845_opencl.bin
 
 PRODUCT_PACKAGES += \
